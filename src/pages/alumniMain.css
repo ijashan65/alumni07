@@ -1,0 +1,90 @@
+.alumni-profile-container {
+  background: #f4f4f4;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  background: #111;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.profile-header nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.alumni-profile-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: -70px;
+  border: 5px solid white;
+}
+
+.verified {
+  color: green;
+  font-weight: bold;
+}
+
+.profile-info {
+  margin: 20px 0;
+  color: #444;
+  font-size: 14px;
+}
+
+.profile-about {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.profile-skills {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-tag {
+  background: #eee;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+.connect-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #16a34a;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.back-btn {
+  display: block;
+  margin-top: 15px;
+  color: #555;
+  text-decoration: none;
+}

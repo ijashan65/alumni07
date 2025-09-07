@@ -1,0 +1,111 @@
+body{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.networking-container {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #0a0a0a;
+  color: white;
+  min-height: 100vh;
+}
+
+.networking-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.highlight-blue {
+  color: #3ba4ff;
+}
+.networking-card .icon {
+  font-size: 3rem;
+  margin-bottom: 12px;
+  color: #1db954; /* green highlight */
+}
+
+
+.networking-subtitle {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #b0b0b0;
+}
+
+.networking-buttons {
+  margin: 20px 0;
+}
+
+.networking-buttons .btn {
+  margin: 20px;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-green {
+  background: #1db954;
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
+.btn-dark {
+  background: #222;
+  color: white;
+  border: none;
+}
+
+.btn-white {
+  background: white;
+  color: black;
+  border: none;
+}
+
+.networking-search {
+  width: 60%;
+  max-width: 400px;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  margin: 20px 0;
+  font-size: 1rem;
+}
+
+.networking-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1.3rem;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.networking-card {
+  background: #111;
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.networking-card h3 {
+  margin: 15px 0 10px;
+}
+
+.networking-card p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.networking-card .icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+
+

@@ -1,0 +1,75 @@
+.carousel-wrapper {
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.alumni-carousel {
+  display: flex;
+  gap: 30px;
+  padding: 0 10px;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 2.5rem;
+  cursor: pointer;
+  z-index: 10;
+  width: 50px;
+  height: 50px;
+}
+
+.carousel-btn.left {
+  left: 0;
+}
+
+.carousel-btn.right {
+  right: 0;
+}
+
+.alumni-card {
+  flex: 0 0 auto;
+  width: 220px;
+  background: #1c1c1c;
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.alumni-card:hover {
+  transform: translateY(-8px) scale(1.07);
+}
+
+.carousel-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #22c55e;
+  margin-bottom: 15px;
+}
+
+/* Automatic scrolling using CSS animation */
+.auto-scroll {
+  animation: scroll 59s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

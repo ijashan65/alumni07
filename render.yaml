@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: spotify-clone-ui
+    env: static
+    buildCommand: npm ci && node ./node_modules/vite/bin/vite.js build
+    staticPublishPath: dist
+    envVars:
+      - key: NODE_VERSION
+        value: 20
